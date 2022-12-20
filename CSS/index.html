@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#home"> 
+                    <img src="./img/logo.png" width="200" height="70" class="py-6 block">
+                </a>
+            </div>
+            <div class="flex items-center px-4">
+                 <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+
+                 </button>
+
+                 <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+                 >
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#bootcamp" class="text-base text-black py-2 mx-8 flex group-hover:text-ingreen">Bootcamp</a>
+                        </li>
+                        <li class="group">
+                            <a href="#proclass" class="text-base text-black py-2 mx-8 flex group-hover:text-ingreen">ProClass</a>
+                        </li>
+                        <li class="group">
+                            <a href="#video" class="text-base text-black py-2 mx-8 flex group-hover:text-ingreen">Video Course</a>
+                        </li>
+                        <li class="group">
+                            <a href="#event" class="text-base text-black py-2 mx-8 flex group-hover:text-ingreen">Event & Workshop</a>
+                        </li>
+                    </ul>
+                 </nav>
+                 <div class="flex">
+                    <a href="#" class="text-base font-normal block max-[1024px]:hidden
+                     text-ingreen bg-white py-2 px-6 mx-5 border border-ingreen rounded-md 
+                    hover:shadow-lg hover:opacity-80 transition duration-300 ease">Daftar</a>
+                    <a href="#" class="text-base font-normal max-[1024px]:hidden
+                     text-white bg-ingreen py-2 px-6 rounded-md 
+                    hover:shadow-lg hover:opacity-80 transition duration-300 ease">Masuk</a>
+                 </div>
+                 
+
+            </div>
+        </div>
+    </div>
+    </header>
+    <!-- Header End -->
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-24 bg-#f7f7f7">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="font-bold text-4xl lg:text-5xl">
+                        Raih Karir Impian <span class="text-ingreen"><br>
+                        Walau </span> <span class="text-inblue" > Kurang Pengalaman</span>
+                    </h1>
+                        <br>
+                        <p class="font-medium mb-10 text-gray-600">
+                            Kuasai skill dan dapatkan pekerjaan impianmu.<br>
+                            Sudah <span class="text-ingreen font-bold">3387</span> alumni berhasil meraih karir impian mereka. <br>
+                            Apabila setelah lulus kamu belum bekerja dalam 365 hari,<br>
+                            kamu berhak mendapatkan refund <span class="text-ingreen font-bold">up to 110%</span> dari investasimu.
+                        </p>
+                    <a href="#" class="text-base font-semibold
+                     text-white bg-ingreen py-3 px-8 rounded-md 
+                    hover:shadow-lg hover:opacity-80 transition duration-300 ease">Temukan Bootcamp Yang Tepat Untukmu</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 lg:mt-9 lg:right-0">
+                        <img src="./img/homepage.png" alt="homepage" class="max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+<script src="./dist/js/script.js"></script>
+</body>
+</html>
